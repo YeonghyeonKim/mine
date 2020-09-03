@@ -43,7 +43,7 @@ from onnx_tf.backend import prepare
 아무런 에러 메시지가 없으면 제대로 설치된 것이다.  
 
 ## 모델 로드 및 컨버트
-※주의! https://github.com/lukemelas/EfficientNet-PyTorch#example-export-to-onnx에서 나온 예제는 잘못되었다. 
+※주의! https://github.com/lukemelas/EfficientNet-PyTorch#example-export-to-onnx 에서 나온 예제는 잘못되었다. 
 Issue 중 ONNX can't export SwishImplementation의 [저자의 코멘트](https://github.com/lukemelas/EfficientNet-PyTorch/issues/91#issuecomment-542994572, "저자의 코멘트")를 보면 ```.set_swish(memory_efficient=False)```를 사용하라고 한다. 현재 example에서는 업데이트가 안된 상태이다.
 
 ```
